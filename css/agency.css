@@ -240,7 +240,6 @@ header.masthead .intro-text {
   padding: 50px;
   background: white;
   box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
-  /* height: 50px !important; */
   overflow: auto;
   opacity: 75%;
   font-family: 'Amatic SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
