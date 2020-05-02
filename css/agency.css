@@ -153,6 +153,10 @@ img::-moz-selection {
   color: #037f8c;
 }
 
+.darkened-navbar {
+  background-color: #212529 !important;
+}
+
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 25px;
@@ -230,6 +234,7 @@ header.masthead .intro-text {
   max-width: 100%;
   height: auto;
   padding-bottom: 15px;
+  border: 0 !important;
 }
 
 .overlay-text-subtitle {
