@@ -693,10 +693,13 @@ section#contact .card {
   background-color: #fff;
   border-radius: 0 .25rem .25rem 0;
   opacity: .9;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .contact-section .card {
   opacity: 90%;
+
 }
 
 section#contact .form-group {
