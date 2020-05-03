@@ -689,6 +689,12 @@ section#contact section#contact a {
   border-radius: 0 .25rem .25rem 0;
 }
 
+section#contact .card {
+  background-color: #fff;
+  border-radius: 0 .25rem .25rem 0;
+  opacity: .9;
+}
+
 .contact-section .card {
   opacity: 90%;
 }
