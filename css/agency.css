@@ -185,6 +185,18 @@ img::-moz-selection {
     font-size: 1.25em;
     padding: 12px 0;
   }
+
+  #mainNav.navbar-shrink-noanimation {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #212529;
+    transition: none !important;
+  }
+
+  #mainNav.navbar-shrink-noanimation .navbar-brand {
+    font-size: 1.25em;
+    padding: 12px 0;
+  }
 }
 
 header.masthead {
