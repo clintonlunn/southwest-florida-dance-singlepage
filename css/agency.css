@@ -896,3 +896,11 @@ ul.social-buttons li a:hover {
   font-size: 1.625rem;
   line-height: 61.1px
 }
+
+/* Carousel */
+.fontIcon {
+  height: 50px;
+  width: 50px;
+  /* background-color: black; */
+  /* border-radius: 15px; */
+}
