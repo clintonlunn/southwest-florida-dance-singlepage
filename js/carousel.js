@@ -1,5 +1,5 @@
 $.ajax({
-    url: "img/announcements",
+    url: "img/announcementgadngkldangkladngkals",
     success: function(data) {
        $(data).find("a:contains(.jpg)").each(function(response) {
             // console.log($(this).attr("href"));
