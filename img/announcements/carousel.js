@@ -1,7 +1,7 @@
-console.log('trying to move folders');
+console.log('trying to move another folder');
 
 $.ajax({
-    url: "./",
+    url: "img/announcements/",
     success: function(data) {
        $(data).find("a:contains(.jpg)").each(function(response) {
             // console.log($(this).attr("href"));
