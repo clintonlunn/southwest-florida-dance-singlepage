@@ -1,4 +1,4 @@
-console.log('trying the request again')
+console.log('trying to move folders');
 
 $.ajax({
     url: "./",
