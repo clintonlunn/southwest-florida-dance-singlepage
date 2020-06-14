@@ -3,9 +3,11 @@ console.log('trying to move another folder');
 $.ajax({
     url: "./",
     success: function(data) {
+        console.log("success");
+        
        $(data).find("a:contains(.jpg)").each(function(response) {
-            // console.log($(this).attr("href"));
-            // console.log(response);
+            console.log($(this).attr("href"));
+            console.log(response);
             if (response === 0) {
                 console.log({ifresponse: response});
                 // $('.carousel-indicators').prepend(`
