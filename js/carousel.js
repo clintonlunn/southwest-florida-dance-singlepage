@@ -1,4 +1,4 @@
-console.log('trying the request')
+console.log('trying the request again')
 
 $.ajax({
     url: "../img/announcements",
