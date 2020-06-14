@@ -1,7 +1,7 @@
 console.log('trying to move another folder');
 
 $.ajax({
-    url: "./",
+    url: "../img/announcements",
     success: function(data) {
         console.log("success");
         console.log(data);
