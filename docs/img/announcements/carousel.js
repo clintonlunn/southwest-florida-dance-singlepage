@@ -3,7 +3,7 @@ console.log('still troublshooting');
 $.ajax({
     url: "./",
     success: function(data) {
-        console.log("success");
+        console.log("success?");
         console.log(data);
        $(data).find("a:contains(.jpg)").each(function(response) {
             console.log($(this).attr("href"));
