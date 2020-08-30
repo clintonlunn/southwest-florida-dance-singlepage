@@ -44,13 +44,13 @@
 <body id="page-top">
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top darkened-navbar navbar-shrink-noanimation" id="mainNav">
     <div class="container">
-      <div class="logo-image js-scroll-trigger">
-        <a href="index.html"> <img src="./img/usadancelogo.png" href="#page-top" class="img-fluid"></a>
+      <div class="logo-image">
+        <a href="index.html"> <img src="./img/usadancelogo.png" href="./index.html" class="img-fluid"></a>
       </div>
       &nbsp&nbsp&nbsp
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Southwest Florida Dance </a>
+      <a class="navbar-brand js-scroll-trigger" href="./index.html">Southwest Florida Dance </a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
         data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
         aria-label="Toggle navigation">
@@ -60,31 +60,43 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">Home</a>
+            <a class="nav-link js-scroll-trigger" href="./index.html#about">About</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#announcements">What's Happening</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              What's Happening
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="./index.html#announcements">What's Happening</a>
+              <a class="dropdown-item" href="./index.html#calendar">Calendar</a>
+              <a class="dropdown-item" href="./zoom-classes.html">Zoom Classes</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Resources
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="./index.html#resources">Local Resources & Instructors</a>
+              <a class="dropdown-item" href="./classes.html">Classes</a>
+            </div>
           </li>
           <!-- <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#classes">Classes</a>
-          </li> -->
+                      <a class="nav-link js-scroll-trigger" href="#classes">Classes</a>
+                  </li> -->
           <!-- <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#styles">Dance Styles</a>
-          </li> -->
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#calendar">Calendar</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#resources">Resources</a>
-          </li>
+                      <a class="nav-link js-scroll-trigger" href="./styles.html">Dance Styles</a>
+                  </li> -->
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="./membership.html">Membership</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="./governance.html">Governance</a>
+            <a class="nav-link js-scroll-trigger" href="./index.html#contact">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            <a class="nav-link js-scroll-trigger" href="./donate.html">Donate</a>
           </li>
         </ul>
       </div>
